@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site no GitHub Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+        }
+        .botao {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .botao:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
-    <p>Este é meu site gratuito no GitHub Pages.</p>
+    <h1>Bem-vindo ao Meu Site!</h1>
+    <p>Este é meu site gratuito hospedado no GitHub Pages.</p>
+    <a class="botao" href="https://github.com">Acesse Meu GitHub</a>
 </body>
 </html>
